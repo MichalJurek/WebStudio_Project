@@ -1,2 +1,2 @@
 # WebStudio_Project
-Web studio portfolio page
+WebStudio portfolio page
