@@ -1,0 +1,120 @@
+:root {
+  --main-color-blue: #2196f3;
+  --main-color-gray: #757575;
+  --main-color-black: #212121;
+  --main-color-background-gray: #2f303a;
+  --main-font-roboto: "Roboto", sans-serif;
+  --sec-font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font-roboto);
+  color: var(--main-color-black);
+}
+
+footer {
+  background-color: var(--main-color-background-gray);
+  color: white;
+}
+.no-list {
+  list-style: none;
+}
+
+/* ^^ GLOBAL STYLES ^^ */
+
+/* Logo Settings */
+.logo {
+  font-family: var(--sec-font-raleway);
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.color-blue {
+  color: var(--main-color-blue);
+}
+.color-white {
+  color: white;
+}
+/* Logo Settings */
+
+
+.menu-text a {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.menu-contact a {
+  color: var(--main-color-gray);
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.section-order {
+  background-color: var(--main-color-background-gray);
+}
+
+.section-order h1 {
+  color: white;
+  font-weight: 900px;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.order-button {
+  color: white;
+  background-color: var(--main-color-blue);
+  border: 0;
+  text-align: center;
+}
+
+.advantages {
+}
+.advantages-text {
+  color: var(--main-color-gray);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+
+.advantages h2 {
+  color: var(--main-color-black);
+  font-weight: 700;
+  size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-description {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-description p {
+  color: var(--main-color-gray);
+  font-weight: 400px;
+}
