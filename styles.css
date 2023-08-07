@@ -2,7 +2,9 @@
   --main-color-blue: #2196f3;
   --main-color-gray: #757575;
   --main-color-black: #212121;
+  --main-color-white: #ffffff;
   --main-color-background-gray: #2f303a;
+  --main-color-button-untouched: #F5F4FA;
   --main-font-roboto: "Roboto", sans-serif;
   --sec-font-raleway: "Raleway", sans-serif;
 }
@@ -14,7 +16,7 @@ body {
 
 footer {
   background-color: var(--main-color-background-gray);
-  color: white;
+  color: var(--main-color-white);
 }
 .no-list {
   list-style: none;
@@ -36,10 +38,32 @@ footer {
   color: var(--main-color-blue);
 }
 .color-white {
-  color: white;
+  color: var(--main-color-white);
 }
 /* Logo Settings */
 
+/* -- Button Settings -- */
+
+.button {
+  color: var(--main-color-black);
+  background-color: var(--main-color-button-untouched);
+  border: 0;
+  text-align: center;
+  border-radius: 4%;
+  font-weight: 500px;
+  size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  cursor: pointer;  
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--main-color-blue);
+  color: var(--main-color-white);
+
+}
+/* -- Button Settings -- */
 
 .menu-text a {
   font-weight: 500px;
@@ -62,19 +86,12 @@ footer {
 }
 
 .section-order h1 {
-  color: white;
+  color: var(--main-color-white);
   font-weight: 900px;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
-}
-
-.order-button {
-  color: white;
-  background-color: var(--main-color-blue);
-  border: 0;
   text-align: center;
 }
 
@@ -106,7 +123,7 @@ footer {
   text-align: center;
 }
 
-.team-description {
+.description {
   font-weight: 500px;
   font-size: 16px;
   line-height: 18.75px;
@@ -126,4 +143,8 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.portfolio-images {
+  border: 1px solid #EEEEEE;
 }
