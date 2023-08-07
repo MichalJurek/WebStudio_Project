@@ -118,3 +118,12 @@ footer {
   color: var(--main-color-gray);
   font-weight: 400px;
 }
+
+.footer-contact {
+  color: #FFFFFF99;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
