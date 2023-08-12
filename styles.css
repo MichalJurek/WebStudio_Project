@@ -12,7 +12,7 @@
 body {
   font-family: var(--main-font-roboto);
   color: var(--main-color-black);
-  margin: 0 auto;
+  margin: 0;
 }
 
 header {
@@ -54,6 +54,10 @@ footer {
 .color-white {
   color: var(--main-color-white);
 }
+
+.logo-set {
+  padding-left: ;
+}
 /* Logo Settings */
 
 /* -- Button Settings -- */
@@ -89,9 +93,22 @@ footer {
 
 .menu-set {
   padding: 24px 0 25px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 93px;
 }
 
-.menu-text a {
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  gap: 46px;
+}
+
+.menu-nav a {
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
@@ -99,9 +116,17 @@ footer {
   text-decoration: none;
 }
 
-.menu-text a:hover,
-.menu-text a:focus {
+.menu-nav a:hover,
+.menu-nav a:focus {
   color: var(--main-color-blue);
+}
+
+.menu-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: calc(371px - 93px);
+  gap: 50px;
 }
 
 .menu-contact a {
