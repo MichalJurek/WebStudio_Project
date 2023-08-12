@@ -40,7 +40,7 @@ footer {
 /* Logo Settings */
 .logo {
   font-family: var(--sec-font-raleway);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
   letter-spacing: 0.03em;
@@ -68,7 +68,7 @@ footer {
   border: 0;
   text-align: center;
   border-radius: 4%;
-  font-weight: 500px;
+  font-weight: 500;
   size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -78,7 +78,7 @@ footer {
   width: 200px;
   height: 50px;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.096em;
   border-radius: 4px;
@@ -109,7 +109,7 @@ footer {
 }
 
 .menu-nav a {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 0.02em;
@@ -131,7 +131,8 @@ footer {
 
 .menu-contact a {
   color: var(--main-color-gray);
-  font-weight: 500px;
+  font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 0.02em;
@@ -143,18 +144,27 @@ footer {
   color: var(--main-color-blue);
 }
 .section-order {
-  background-color: var(--main-color-background-gray);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  gap: 30px;
   padding: 200px 0 200px 0;
+  background-color: var(--main-color-background-gray);
 }
 
 .section-order h1 {
   color: var(--main-color-white);
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
+  margin: 0;
   text-transform: uppercase;
   text-align: center;
+}
+
+.order-banner {
 }
 .advantages {
 }
@@ -188,7 +198,7 @@ footer {
 }
 
 .description {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
   letter-spacing: 0.03em;
@@ -197,7 +207,7 @@ footer {
 
 .team-description p {
   color: var(--main-color-gray);
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 .footer-set {
@@ -205,7 +215,7 @@ footer {
 }
 .footer-contact {
   color: #ffffff99;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
