@@ -25,11 +25,13 @@ footer {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  margin: 0;
 }
-
-.padding-set {
-  padding: 94px 0 94px 0;
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .no-list {
   list-style: none;
@@ -45,9 +47,12 @@ footer {
   line-height: 30.52px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding-top: 24px;
 }
-
+.logo-set {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .color-blue {
   color: var(--main-color-blue);
 }
@@ -55,9 +60,6 @@ footer {
   color: var(--main-color-white);
 }
 
-.logo-set {
-  padding-left: ;
-}
 /* Logo Settings */
 
 /* -- Button Settings -- */
@@ -92,12 +94,16 @@ footer {
 /* -- Button Settings -- */
 
 .menu-set {
-  padding: 24px 0 25px 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 93px;
+  justify-content: space-between;
+}
+.menu-space_between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .menu-nav {
@@ -107,6 +113,7 @@ footer {
   padding: 0;
   gap: 46px;
 }
+
 
 .menu-nav a {
   font-weight: 500;
@@ -125,7 +132,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: calc(371px - 93px);
   gap: 50px;
 }
 
@@ -164,9 +170,10 @@ footer {
   text-align: center;
 }
 
-.order-banner {
-}
 .advantages {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 .advantages-text {
   color: var(--main-color-gray);
