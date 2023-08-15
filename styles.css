@@ -24,9 +24,18 @@ footer {
   color: var(--main-color-white);
 }
 
+figure {
+width: 270px;
+height: 368px;
+border-radius: 0px 0px 4px 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+margin: 0;
+}
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0;
+  background-color: rgb(214, 204, 204);
 }
 .center {
   display: flex;
@@ -35,6 +44,7 @@ footer {
 }
 .no-list {
   list-style: none;
+  margin: 0;
 }
 
 /* ^^ GLOBAL STYLES ^^ */
@@ -99,17 +109,17 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0 25px 0;
 }
-.menu-space_between {
+.menu-left {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 93px;
 }
 
 .menu-nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   padding: 0;
   gap: 46px;
 }
@@ -131,7 +141,6 @@ footer {
 .menu-contact {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: 50px;
 }
 
@@ -168,11 +177,14 @@ footer {
   margin: 0;
   text-transform: uppercase;
   text-align: center;
+  width: 100%;
 }
 
 .advantages {
   display: flex;
   flex-direction: row;
+  padding: 0;
+  margin: 94px 0 0 0;
   gap: 30px;
 }
 .advantages-text {
@@ -192,18 +204,35 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.whatwedo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0 94px 0;
+}
 .section-team {
   background-color: #F5F4FA;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 0.03em;
   text-align: center;
+  padding: 0;
+  margin: 94px 0 0 0;
 }
 
+.figures-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  
+}
 .description {
   font-weight: 500;
   font-size: 16px;
