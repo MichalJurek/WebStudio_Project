@@ -24,18 +24,6 @@ footer {
   color: var(--main-color-white);
 }
 
-figure {
-  width: 270px;
-  height: 368px;
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
 .container {
   width: 1200px;
   margin: 0;
@@ -237,6 +225,18 @@ figure {
   background-color: #f5f4fa;
 }
 
+.team-figure {
+  width: 270px;
+  height: 368px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -255,7 +255,7 @@ figure {
   gap: 30px;
 }
 
-.description {
+.team-description {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -267,7 +267,7 @@ figure {
   padding: 30px 0 30px 0;
 }
 
-.description p {
+.team-description p {
   color: var(--main-color-gray);
   font-weight: 400;
   margin: 0;
@@ -303,6 +303,53 @@ figure {
   color: var(--main-color-blue);
 }
 
-.portfolio-images {
-  border: 1px solid #eeeeee;
+.portfolio-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  padding: 94px 0 0 0;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0 94px 0;
+}
+
+.projects-figures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end
+  width: 370px;
+  height: 404px;
+  background: #fff;
+  border: 1px solid #EEE;
+}
+
+.projects-figures figure {
+  width: 370px;
+  height: 294px;
+  margin: 0;
+}
+
+.project-description {
+  color: var(--main-color-black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+  /*padding: 20px 0 20px 0;*/
+}
+
+.project-description p {
+  color: var(--main-color-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  margin: 0;
 }

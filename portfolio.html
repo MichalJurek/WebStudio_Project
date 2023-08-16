@@ -14,32 +14,36 @@
   </head>
 
   <body>
-    <header>
-      <section class="container menu-set">
+    <header class="center">
+      <section class="menu-set container">
+        <div class="menu-left">
+          <div class="logo-set">
+            <a href="/index.html" class="logo color-blue">Web</a><a href="./index.html" class="logo">Studio</a>
+          </div>
+          <div>
+            <nav>
+              <ul class="menu-nav no-list">
+                <li><a href="">Agencja</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
         <div>
-      <a href="/index.html" class="logo color-blue">Web</a
-      ><a href="./index.html" class="logo">Studio</a>
-    </div>
-    <div>
-      <nav>
-        <ul class="menu-nav no-list">
-          <li><a href="">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div>
-      <ul class="menu-contact no-list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-    </div>
-    </section>
+          <ul class="menu-contact no-list">
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </div>
+      </section>
     </header>
     <main>
-      <section>
-        <ul class="no-list">
+      <section class="center">
+        <div class="container">
+        <ul class="portfolio-buttons no-list">
           <li>
             <button type="button" class="button">Wszystkie</button>
           </li>
@@ -56,10 +60,11 @@
             <button type="button" class="button">Marketing</button>
           </li>
         </ul>
+      </div>
       </section>
-      <section>
-        <ul class="no-list">
-          <li class="portfolio-images">
+      <section class="center">
+        <ul class="no-list container projects-section">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/laptop.jpg"
@@ -68,12 +73,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Technocrack
               <p>Strona Internetowa</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/basketball.jpg"
@@ -82,12 +87,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Grafika New Orlean vs Golden Star
               <p>Dizajn</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/logo.jpg"
@@ -96,12 +101,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Restauracja Seafood
               <p>Aplikacja</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/headphones.jpg"
@@ -110,12 +115,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Projekt Prime
               <p>Marketing</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/boxes.jpg"
@@ -124,12 +129,14 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
+              <div>
               Projekt Boxes
               <p>Aplikacja</p>
+            </div>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/dark_desktop.jpg"
@@ -138,12 +145,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Inspiration has no limit
               <p>Strona Internetowa</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/book.jpg"
@@ -152,12 +159,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Magazyn Limited Edition
               <p>Dizajn</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/label.jpg"
@@ -166,12 +173,12 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Projekt LAB
               <p>Marketing</p>
             </figcaption>
           </li>
-          <li class="portfolio-images">
+          <li class="projects-figures">
             <figure>
               <img
                 src="./Images/working_desk.jpg"
@@ -180,7 +187,7 @@
                 height="294px"
               />
             </figure>
-            <figcaption class="description">
+            <figcaption class="project-description">
               Growing Business
               <p>Aplikacja</p>
             </figcaption>
@@ -188,24 +195,24 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <ul class="no-list">
-        <li>
-          <a href="/index.html" class="logo color-blue">Web</a
-          ><a href="./index.html" class="logo color-white">Studio</a>
-        </li>
-        <li>
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="footer-contact"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+48111111111" class="footer-contact">+48 111 111 111</a>
-        </li>
-      </ul>
+    <footer class="center">
+      <section class="container">
+        <ul class="no-list footer-set">
+          <li class="logo-set">
+            <a href="/index.html" class="logo color-blue">Web</a><a href="./index.html"
+              class="logo color-white">Studio</a>
+          </li>
+          <li>
+            <p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="footer-contact">+48 111 111 111</a>
+          </li>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>
