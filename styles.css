@@ -50,6 +50,7 @@ figure {
 .no-list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 /* ^^ GLOBAL STYLES ^^ */
@@ -78,15 +79,11 @@ figure {
   color: var(--main-color-white);
 }
 
-.logo a:hover,
-.logo a:focus {
+.logo-set a:hover,
+.logo-set a:focus {
   color: var(--main-color-blue);
 }
 
-.logo .color-white a:hover,
-.logo .color-white a:focus {
-  color: var(--main-color-blue);
-}
 /* Logo Settings */
 
 /* -- Button Settings -- */
@@ -281,12 +278,23 @@ figure {
   padding: 60px 0 60px 0;
 }
 
-.footer-contact {
-  color: #ffffff99;
+.footer-adress {
+  margin: 0;
+  padding: 20px 0 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.042em;
+  text-decoration: none;
+}
+
+.footer-contact {
+  color: #ffffff99;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.042em;
   text-decoration: none;
 }
 
