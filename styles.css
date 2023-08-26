@@ -314,7 +314,10 @@ footer {
 .projects-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 50px 0 94px 0;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .projects-figures {
@@ -367,5 +370,4 @@ footer {
   letter-spacing: 0.48px;
   margin: 0;
   padding: 0 0 0 24px;
-
 }
