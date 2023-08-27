@@ -82,10 +82,9 @@ footer {
   border: 0;
   text-align: center;
   border-radius: 4%;
-  font-weight: 500;
+  font-weight: 500px;
   size: 16px;
   line-height: 26px;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -98,6 +97,17 @@ footer {
   letter-spacing: 0.096em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.filter {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  padding: 6px 22px 6px 22px;
 }
 
 .button:hover,
@@ -313,11 +323,10 @@ footer {
 
 .projects-section {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 50px 0 94px 0;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 .projects-figures {
