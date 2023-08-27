@@ -359,7 +359,7 @@ footer {
   height: 101px;
 }
 
-.project-description h4 {
+.project-description h3{
   margin: 0;
   padding: 0 0 0 24px;
   color: var(--main-color-black);
