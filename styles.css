@@ -183,6 +183,10 @@ footer {
   gap: 30px;
   padding: 200px 0 200px 0;
   background-color: var(--main-color-background-gray);
+  background-image: url(./Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 600px;
+  background-position: center;
 }
 
 .section-order h1 {
