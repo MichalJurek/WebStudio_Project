@@ -118,6 +118,21 @@ footer {
 
 /* -- Button Settings -- */
 
+/* --Icon settings --*/
+.icon-envelope,
+.icon-mobile {
+  fill: var(--main-color-gray);
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/* --Icon settings --*/
+
 .menu-set {
   margin: 0;
   display: flex;
