@@ -3,8 +3,8 @@
   --main-color-gray: #757575;
   --main-color-black: #212121;
   --main-color-white: #ffffff;
+  --main-color-gray-light: #f5f4fa;
   --main-color-background-gray: #2f303a;
-  --main-color-button-untouched: #f5f4fa;
   --main-font-roboto: "Roboto", sans-serif;
   --sec-font-raleway: "Raleway", sans-serif;
 }
@@ -78,7 +78,7 @@ footer {
 
 .button {
   color: var(--main-color-black);
-  background-color: var(--main-color-button-untouched);
+  background-color: var(--main-color-gray-light);
   border: 0;
   text-align: center;
   border-radius: 4%;
@@ -207,6 +207,16 @@ footer {
   padding: 0;
   margin: 94px 0 0 0;
   gap: 30px;
+}
+
+.advantages-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: var(--main-color-gray-light);
 }
 
 .advantages-text {
