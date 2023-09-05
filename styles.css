@@ -4,6 +4,7 @@
   --main-color-black: #212121;
   --main-color-white: #ffffff;
   --main-color-gray-light: #f5f4fa;
+  --main-color-gray-icon: #afb1b8;
   --main-color-background-gray: #2f303a;
   --main-font-roboto: "Roboto", sans-serif;
   --sec-font-raleway: "Raleway", sans-serif;
@@ -129,6 +130,45 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+
+.team-socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0px;
+}
+
+.instagram-icon,
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon {
+  fill: var(--main-color-gray-icon);
+}
+
+.social-links:hover,
+.instagram-icon:hover,
+.twitter-icon:hover,
+.facebook-icon:hover,
+.linkedin-icon:hover {
+  background-color: var(--main-color-blue);
+  fill: var(--main-color-white);
+
+}
+
+.instagram-icon:focus {
+  background-color: var(--main-color-blue);
+  fill: var(--main-color-white);
 }
 
 /* --Icon settings --*/
@@ -266,7 +306,7 @@ footer {
 
 .team-figure {
   width: 270px;
-  height: 368px;
+  height: 428px;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -312,6 +352,8 @@ footer {
   margin: 0;
   padding: 0;
 }
+
+
 
 .footer-set {
   padding: 60px 0 60px 0;
