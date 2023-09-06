@@ -278,6 +278,10 @@ footer {
   background: var(--main-color-gray-light);
 }
 
+.advantages-element:hover {
+  fill: var(--main-color-blue);
+}
+
 .advantages-text {
   color: var(--main-color-gray);
   font-weight: 400;
