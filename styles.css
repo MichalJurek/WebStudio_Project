@@ -154,7 +154,6 @@ color: var(--main-color-blue);
   height: 50px;
   border-radius: 36%;
   border: 0px;
-  background-color: var(--main-color-gray-icon);
 }
 
 .social-links:hover {
