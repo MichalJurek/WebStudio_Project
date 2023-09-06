@@ -71,6 +71,7 @@ footer {
 .logo-set a:hover,
 .logo-set a:focus {
   color: var(--main-color-blue);
+  cursor: pointer;
 }
 
 /* Logo Settings */
@@ -115,6 +116,7 @@ footer {
 .button:focus {
   background-color: var(--main-color-blue);
   color: var(--main-color-white);
+  cursor: pointer;
 }
 
 /* -- Button Settings -- */
@@ -134,9 +136,14 @@ footer {
 }
 
 .menu-icon:hover,
-.menu-icon:hover .icon-envelope {
+.menu-icon:hover .icon-envelope,
+.menu-icon:hover .icon-mobile,
+.menu-icon:focus,
+.menu-icon:focus .icon-envelope,
+.menu-icon:focus /.icon-mobile {
 fill: var(--main-color-blue);
 color: var(--main-color-blue);
+cursor: pointer;
 }
 
 .team-socialmedia {
@@ -156,12 +163,14 @@ color: var(--main-color-blue);
   border: 0px;
 }
 
-.social-links:hover {
+.social-links:hover,
+.social-links:focus {
   --color1: var(--main-color-white);
   --color2: var(--main-color-white);
   --color3: var(--main-color-white);
   fill: var(--main-color-white);
   background-color: var(--main-color-blue);
+  cursor: pointer;
 }
 
 /* --Icon settings --*/
@@ -200,6 +209,7 @@ color: var(--main-color-blue);
 .menu-nav a:hover,
 .menu-nav a:focus {
   color: var(--main-color-blue);
+  cursor: pointer;
 }
 
 .menu-contact {
@@ -370,6 +380,7 @@ color: var(--main-color-blue);
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--main-color-blue);
+  cursor: pointer;
 }
 
 .portfolio-buttons {
