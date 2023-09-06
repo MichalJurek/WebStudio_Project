@@ -143,32 +143,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 33%;
   border: 0px;
 }
 
-.instagram-icon,
-.twitter-icon,
-.facebook-icon,
-.linkedin-icon {
-  fill: var(--main-color-gray-icon);
-}
-
-.social-links:hover,
-.instagram-icon:hover,
-.twitter-icon:hover,
-.facebook-icon:hover,
-.linkedin-icon:hover {
-  background-color: var(--main-color-blue);
+.social-links:hover {
+  --color1: var(--main-color-white);
+  --color2: var(--main-color-white);
+  --color3: var(--main-color-white);
   fill: var(--main-color-white);
-
-}
-
-.instagram-icon:focus {
   background-color: var(--main-color-blue);
-  fill: var(--main-color-white);
 }
 
 /* --Icon settings --*/
