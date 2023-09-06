@@ -395,7 +395,6 @@ footer {
   --color3: var(--main-color-white);
   fill: var(--main-color-white);
   background-color: var(--main-color-gray);
-
 }
 
 .portfolio-buttons {
