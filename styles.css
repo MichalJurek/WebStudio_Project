@@ -137,13 +137,19 @@ footer {
 
 .menu-icon:hover,
 .menu-icon:hover .icon-envelope,
-.menu-icon:hover .icon-mobile,
+.menu-icon:hover .icon-mobile {
+  fill: var(--main-color-blue);
+  color: var(--main-color-blue);
+  cursor: pointer;
+}
+
+
 .menu-icon:focus,
 .menu-icon:focus .icon-envelope,
 .menu-icon:focus .icon-mobile {
-fill: var(--main-color-blue);
-color: var(--main-color-blue);
-cursor: pointer;
+  fill: var(--main-color-blue);
+  color: var(--main-color-blue);
+  cursor: pointer;
 }
 
 .team-socialmedia {
