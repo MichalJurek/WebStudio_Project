@@ -134,7 +134,7 @@ footer {
 }
 
 .menu-icon:hover,
-.menu-icon svg:hover {
+.menu-icon:hover .icon-envelope {
 fill: var(--main-color-blue);
 color: var(--main-color-blue);
 }
