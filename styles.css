@@ -278,7 +278,7 @@ footer {
   background: var(--main-color-gray-light);
 }
 
-.advantages-element:hover {
+.icon-antenna:hover {
   fill: var(--main-color-blue);
 }
 
