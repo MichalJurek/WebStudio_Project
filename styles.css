@@ -389,6 +389,15 @@ footer {
   cursor: pointer;
 }
 
+.footer-social {
+  --color1: var(--main-color-white);
+  --color2: var(--main-color-white);
+  --color3: var(--main-color-white);
+  fill: var(--main-color-white);
+  background-color: var(--main-color-gray);
+
+}
+
 .portfolio-buttons {
   display: flex;
   flex-direction: row;
