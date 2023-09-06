@@ -278,6 +278,10 @@ footer {
   background: var(--main-color-gray-light);
 }
 
+.advantages-element:hover {
+  fill: red;
+  color: orange;
+}
 .icon-antenna:hover {
   fill: var(--main-color-blue);
 }
