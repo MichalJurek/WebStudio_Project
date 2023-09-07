@@ -62,10 +62,14 @@ footer {
 
 .color-blue {
   color: var(--main-color-blue);
+  text-decoration: none;
+
 }
 
 .color-white {
   color: var(--main-color-white);
+  text-decoration: none;
+
 }
 
 .logo-set a:hover,
@@ -279,10 +283,6 @@ footer {
 }
 
 .advantages-element:hover {
-  fill: red;
-  color: orange;
-}
-.icon-antenna:hover {
   fill: var(--main-color-blue);
 }
 
