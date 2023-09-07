@@ -316,6 +316,10 @@ footer {
   background-color: #f5f4fa;
 }
 
+.section-customers {
+    background-color: var(--main-color-white);
+}
+
 .team-figure {
   width: 270px;
   height: 428px;
