@@ -156,7 +156,8 @@ footer {
   cursor: pointer;
 }
 
-.team-socialmedia {
+.team-socialmedia,
+.footer-socialmedia {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -399,10 +400,11 @@ footer {
   padding: 0;
 }
 
-
-
 .footer-set {
+  display: flex;
+  flex-direction: row;
   padding: 60px 0 60px 0;
+  gap: 70px;
 }
 
 .footer-adress {
@@ -431,12 +433,13 @@ footer {
   cursor: pointer;
 }
 
-.footer-social {
+.joinus-social {
   --color1: var(--main-color-white);
   --color2: var(--main-color-white);
   --color3: var(--main-color-white);
   fill: var(--main-color-white);
   background-color: var(--main-color-gray);
+  border-radius: 36%;
 }
 
 .portfolio-buttons {
