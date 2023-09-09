@@ -183,6 +183,19 @@ footer {
   cursor: pointer;
 }
 
+.customer-icon {
+  fill: var(--main-color-gray-icon);
+}
+
+.customers-element:hover .customer-icon {
+  fill: var(--main-color-blue);
+}
+
+.customers-element:hover {
+  border-color: var(--main-color-blue);
+  cursor: pointer;
+}
+
 /* --Icon settings --*/
 
 .menu-set {
@@ -318,6 +331,23 @@ footer {
 
 .section-customers {
     background-color: var(--main-color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0 94px 0;
+}
+
+.customers-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: solid 1px;
+  border-color: var(--main-color-gray-icon);
 }
 
 .team-figure {
