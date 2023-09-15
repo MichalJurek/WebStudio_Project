@@ -226,6 +226,7 @@ footer {
   line-height: 16.41px;
   letter-spacing: 0.02em;
   text-decoration: none;
+  position: relative;
 }
 
 .menu-nav a:hover,
@@ -250,6 +251,15 @@ footer {
   text-decoration: none;
 }
 
+.undermark {
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--main-color-blue);
+  position: absolute;
+  top: 77px;
+}
+
 .section-order {
   display: flex;
   flex-direction: column;
@@ -257,8 +267,8 @@ footer {
   align-items: center;
   gap: 30px;
   padding: 200px 0 200px 0;
-  background-color: var(--main-color-background-gray);
-  background-image: url(./Images/background.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0)),
+  url(./Images/background.jpg);
   background-repeat: no-repeat;
   background-size: 1600px 600px;
   background-position: center;
