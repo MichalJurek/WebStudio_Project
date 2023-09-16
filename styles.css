@@ -122,6 +122,8 @@ footer {
   color: var(--main-color-white);
   cursor: pointer;
   transition: var(--main-transition-set);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /* -- Button Settings -- */
