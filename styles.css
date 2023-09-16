@@ -171,7 +171,6 @@ footer {
   border: 0px;
   background-color: transparent;
 }
-
 .social-links:focus,
 .social-links:hover {
   --color1: var(--main-color-white);
