@@ -8,6 +8,7 @@
   --main-color-background-gray: #2f303a;
   --main-font-roboto: "Roboto", sans-serif;
   --sec-font-raleway: "Raleway", sans-serif;
+  --main-transition-set: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -74,6 +75,7 @@ footer {
 .logo-set a:focus {
   color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 /* Logo Settings */
@@ -119,6 +121,7 @@ footer {
   background-color: var(--main-color-blue);
   color: var(--main-color-white);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 /* -- Button Settings -- */
@@ -139,18 +142,14 @@ footer {
 
 .menu-icon:hover,
 .menu-icon:hover .icon-envelope,
-.menu-icon:hover .icon-mobile {
-  fill: var(--main-color-blue);
-  color: var(--main-color-blue);
-  cursor: pointer;
-}
-
+.menu-icon:hover .icon-mobile,
 .menu-icon:focus,
 .menu-icon:focus .icon-envelope,
 .menu-icon:focus .icon-mobile {
   fill: var(--main-color-blue);
   color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 .team-socialmedia,
@@ -170,29 +169,35 @@ footer {
   height: 50px;
   border-radius: 36%;
   border: 0px;
+  background-color: transparent;
 }
 
-.social-links:hover,
-.social-links:focus {
+.social-links:focus,
+.social-links:hover {
   --color1: var(--main-color-white);
   --color2: var(--main-color-white);
   --color3: var(--main-color-white);
   fill: var(--main-color-white);
   background-color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 .customer-icon {
   fill: var(--main-color-gray-icon);
 }
 
-.customers-element:hover .customer-icon {
+.customers-element:hover .customer-icon,
+.customers-element:focus .customer-icon {
   fill: var(--main-color-blue);
+  transition: var(--main-transition-set);
 }
 
-.customers-element:hover {
+.customers-element:hover,
+.customers-element:focus {
   border-color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 /* --Icon settings --*/
@@ -233,6 +238,7 @@ footer {
 .menu-nav a:focus {
   color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 .menu-contact {
@@ -304,8 +310,10 @@ footer {
   background: var(--main-color-gray-light);
 }
 
-.advantages-element:hover {
+.advantages-element:hover,
+.advantages-element:focus {
   fill: var(--main-color-blue);
+  transition: var(--main-transition-set);
 }
 
 .advantages-text {
@@ -461,6 +469,7 @@ footer {
 .footer-contact:focus {
   color: var(--main-color-blue);
   cursor: pointer;
+  transition: var(--main-transition-set);
 }
 
 .joinus-social {
