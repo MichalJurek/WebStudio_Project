@@ -21,10 +21,20 @@ header {
 	border-bottom: 1px solid #ececec;
 }
 
+[data-theme="dark"] header {
+	border-bottom: 1px solid var(--main-color-blue);
+}
+
 footer {
 	background-color: var(--main-color-background-gray);
 	color: var(--main-color-white);
 }
+
+[data-theme="dark"] .center {
+	background-color: var(--main-color-black);
+	color: var(--main-color-gray-light);
+}
+
 
 .container {
 	width: 1200px;
@@ -123,6 +133,8 @@ footer {
 	height: 50px;
 	font-size: 16px;
 	font-weight: 700;
+	color: var(--main-color-white);
+	background-color: var(--main-color-blue);
 	line-height: 30px;
 	letter-spacing: 0.096em;
 	border-radius: 4px;
@@ -146,6 +158,12 @@ footer {
 	color: var(--main-color-white);
 	cursor: pointer;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order:hover,
+.order:focus {
+	background-color: var(--main-color-white);
+	color: var(--main-color-blue);
 }
 
 /* -- Button Settings -- */
@@ -325,8 +343,12 @@ footer {
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0)),
 		url(./Images/background.jpg);
 	background-repeat: no-repeat;
-	background-size: min 1600px 600px;
+	background-size: 1600px 600px;
 	background-position: center;
+}
+
+[data-theme="dark"] .section-order {
+	background-color: var(--main-color-black);
 }
 
 .section-order h1 {
